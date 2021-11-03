@@ -83,7 +83,7 @@ export class HomeComponent implements OnInit {
   }
 
   addItem() {
-    var mytoken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkc29mdCIsImV4cCI6MTYzNDc5NTgwMiwib3JpZ0lhdCI6MTYzNDc5NTUwMn0._6tOsFeS7Li59toIpxyD1rDNi_HXnjvcDPBjoKXNcUk";
+    var mytoken = this.token;
     //this.storageService.getSession("token");
     alert(this.goalText);
 
